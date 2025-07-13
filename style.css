@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+input, textarea {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+}
+
+.tooltip {
+  position: absolute;
+  background: #222;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+  font-size: 12px;
+}
+
+#feedback-display {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}

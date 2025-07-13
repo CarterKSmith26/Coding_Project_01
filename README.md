@@ -1,1 +1,1 @@
-# Coding_Project_01
+In this challenge, you will design an interactive form that captures user input using event-based programming. You will use DOM manipulation, event handlers, bubbling and delegation, mouse movement events, and keyboard events to build a responsive feedback tool.

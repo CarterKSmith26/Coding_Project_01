@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="contact-form">
+    <input id="username" placeholder="Name" data-tip="Enter your name"><br>
+    <input id="email" placeholder="Email" data-tip="Enter your email"><br>
+    <textarea id="comments" placeholder="Comments" data-tip="Write something..."></textarea>
+    <div id="char-count">0 characters</div><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="feedback-display"></div>
+  <div id="tooltip" class="tooltip"></div>
+
+  <script src="cp_1.js"></script>
+</body>
+</html>
